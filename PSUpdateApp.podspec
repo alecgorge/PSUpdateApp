@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'PSUpdateApp_2/*.{h,m}'
   s.resource = ['PSUpdateApp_2/Localizations/**']
-  s.dependency 'AFNetworking', '~> AFNetworking'
+  s.dependency 'AFNetworking', '~> 2.2'
 end
